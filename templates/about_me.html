@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block title %}
+About me
+{% endblock %}
+
+{% block main %}
+<link rel="stylesheet" href="dashboard.css">
+<div class="container-fluid hero-jr identifyObserver d-flex shadow-lg align-items-end justify-content-center">
+    <div class="text-center">
+        <div id="navbrand1" class="navbar-brand user-logo"><img src="static/images/about_me/Wenxu.jpg"
+                id="logo_about_me"></div>
+        <h1 class="display-4 mt-0 mb-0 userProfileNav herotext1" id="heroh1">
+            Wenxu&nbsp; Chen&nbsp; <i style="color: #166CDB;" class="fas fa-check-circle"></i></h1>
+    </div>
+</div>
+<div class="main-content1 greyed-BG">
+    <div class="container" style="background: white; padding: 1em; border-radius: 1em;">
+        Hello, this is Wenzu Chen. Physics and mathematics are my areas of study. A Harvard University (CS50) certified
+        programmer and self-taught software developer, I also have a background in computer science.
+        I have always been curious about technology (particularly computer science). Thanks to CS50, I have been able to
+        learn Computer Science in a fun and challenging way.
+        Besides learning, I also develop web apps and computer programs for fun.
+        One day, I want to develop useful tools to help societies around the world by combining my skills in Physics,
+        mathematics and computer science.
+        You can contact me if you think I can help you along the way.
+        Here is a <a href="/contact">link</a> to my contact page.
+        <div class="thankyou">
+            <img src="static/images/about_me/codeReview.png" alt="">
+        </div>
+
+    </div>
+</div>
+{% endblock %}
